@@ -1,0 +1,40 @@
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-color: hsl(226, 52%, 87%) !important;
+  background-image: url(/src/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.musiccard {
+  width: 90%;
+  margin: auto !important;
+  background-color: hsl(225, 100%, 98%);
+}
+.btn {
+  background-color: #4760e1 !important;
+}
+.btn:hover {
+  background-color: #766cf1 !important;
+}
+.card-title-text {
+  color: hsl(223, 47%, 23%) !important;
+  font-size: 24px;
+  font-weight: 900;
+}
+.App {
+  border-radius: 14px !important;
+}
+.App-logo {
+  border-top-left-radius: 14px !important;
+  border-top-right-radius: 14px !important;
+}
+.cancel:hover {
+  color: #20263d !important;
+  cursor: pointer;
+}
+a:hover {
+  color: #766cf1;
+  text-decoration: none;
+}

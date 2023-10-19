@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#root {
+  height: 75%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 375px) {
+  #root {
+    width: 90% !important;
+  }
+}
+@media (min-width: 1440px) {
+  #root {
+    width: 25% !important;
+  }
+}
